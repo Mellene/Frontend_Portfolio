@@ -214,6 +214,21 @@
     </div>
 
     <div class="project-grid-v2">
+      <!-- Project 0: Relationship Analysis Platform (New) -->
+      <div onclick="openModal(7)" class="project-card-v2 hover-indigo" style="cursor: pointer;">
+        <div>
+          <div class="card-shape" style="background: #6366f1; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);"></div>
+          <h3 data-i18n="project4-title">Relationship Analysis Platform</h3>
+          <p class="card-desc" data-i18n="project4-desc">Gemini API와 Supabase를 활용한 AI 연애 심리 분석 서비스입니다. 1인 개발자로서 기획부터 TypeScript 기반 프론트엔드 구축, 배포까지 전 과정을 수행했습니다.</p>
+        </div>
+        <div class="card-tech-stack">
+          <span class="card-tech-tag">Vite.js</span>
+          <span class="card-tech-tag">TypeScript</span>
+          <span class="card-tech-tag">Gemini API</span>
+          <span class="card-tech-tag">Supabase</span>
+        </div>
+      </div>
+
       <!-- Project 1 -->
       <div onclick="openModal(1)" class="project-card-v2 hover-blue" style="cursor: pointer;">
         <div>
@@ -406,6 +421,8 @@
         "project2-desc": "국내 최대 중고차 마켓플레이스 앱의 사용자 중심 리디자인 프로젝트입니다. Persona Research를 통해 차량 비교 경험의 Pain Point를 파악하고 Prototype을 제작했습니다.",
         "project3-title": "\"Face the Truth\"<br/>AR Campaign",
         "project3-desc": "Z세대를 타겟으로 한 AR 기반 마약 예방 캠페인입니다. 실시간 얼굴 변형 필터를 디자인하였으며, 임상 데이터를 정서적 공감을 일으키는 소셜 미디어 경험으로 전환했습니다.",
+        "project4-title": "Relationship Analysis Platform",
+        "project4-desc": "Gemini API와 Supabase를 활용한 AI 연애 심리 분석 서비스입니다. 1인 개발자로서 기획부터 TypeScript 기반 프론트엔드 구축, 배포까지 전 과정을 수행했습니다.",
         "activities-title": "교내 활동",
         "activities-subtitle": "다양한 교내 활동을 통해 역량을 쌓아왔습니다",
         "activity1-title": "Teaching Assistant<br/>(학부 조교)",
@@ -496,6 +513,8 @@
         "project2-desc": "User-centric redesign project for Korea's largest used car marketplace app. Identified pain points in the vehicle comparison experience through Persona Research and created prototypes.",
         "project3-title": "\"Face the Truth\"<br/>AR Campaign",
         "project3-desc": "AR-based anti-drug campaign targeting Gen Z. Designed real-time face distortion filters and translated clinical data into social media experiences that evoke emotional empathy.",
+        "project4-title": "Relationship Analysis Platform",
+        "project4-desc": "AI-based relationship analysis service using Gemini API and Supabase. As the sole developer, I handled everything from planning to TypeScript-based frontend development and deployment.",
         "activities-title": "Campus Activities",
         "activities-subtitle": "Built competencies through various campus activities",
         "activity1-title": "Teaching Assistant",
@@ -730,6 +749,52 @@
                 "Planned and conducted programming classes using Scratch",
                 "Supported improvement of mentees' technical skills and problem-solving abilities"
               ]
+            }
+          ]
+        }
+      },
+      7: {
+        title: { ko: "Relationship Analysis Platform", en: "Relationship Analysis Platform" },
+        shape: "background: #6366f1; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);",
+        desc: { ko: "Gemini API와 Supabase를 활용한 AI 연애 심리 분석 서비스입니다.", en: "AI-based relationship analysis service using Gemini API and Supabase." },
+        tech: "Vite.js, TypeScript, Gemini API, Supabase",
+        role: { ko: "Sole Developer", en: "Sole Developer" },
+        period: { ko: "2026.01 - 2026.02", en: "Jan 2026 - Feb 2026" },
+        details: {
+          ko: [
+            {
+              title: "전과정 1인 개발 및 배포",
+              items: ["초기 컨셉 기획부터 Vercel을 통한 배포까지 웹 서비스 전체 사이클 수행"]
+            },
+            {
+              title: "AI 기반 분석 기능 통합",
+              items: ["Gemini API를 연동하여 사용자 입력에 따른 맞춤형 AI 분석 결과 생성", "분석 흐름에 최적화된 페이지 및 컴포넌트 아키텍처 설계"]
+            },
+            {
+              title: "데이터 관리 및 백엔드 통합",
+              items: ["Supabase를 활용하여 사용자 데이터 저장 및 분석 결과 조회 로직 구현"]
+            },
+            {
+              title: "TypeScript 기반 안정적 개발",
+              items: ["첫 프로덕션 프로젝트로 TypeScript를 전면 도입하여 구조적이고 견고한 컴포넌트 설계"]
+            }
+          ],
+          en: [
+            {
+              title: "End-to-End Solo Development",
+              items: ["Managed the entire web service lifecycle from initial concept to deployment on Vercel."]
+            },
+            {
+              title: "AI-Based Analysis Integration",
+              items: ["Integrated Gemini API to generate tailored AI analysis based on user inputs.", "Designed page and component architecture optimized for the analysis flow."]
+            },
+            {
+              title: "Data Management & Backend Integration",
+              items: ["Utilized Supabase for handling user data storage and retrieval of analysis results."]
+            },
+            {
+              title: "TypeScript-Based Robust Development",
+              items: ["Applied TypeScript throughout my first production project for more structured and reliable component design."]
             }
           ]
         }
