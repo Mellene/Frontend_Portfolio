@@ -57,6 +57,26 @@ nav {
 }
 .nav-links a:hover { color: var(--primary); }
 
+.lang-btn {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lang-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+
 /* CONTAINER */
 .container {
   max-width: var(--max-width);
