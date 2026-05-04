@@ -58,23 +58,45 @@ nav {
 .nav-links a:hover { color: var(--primary); }
 
 .lang-btn {
-  background: var(--primary-light);
-  color: var(--primary);
-  border: 1px solid var(--primary);
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
-  font-size: 0.8rem;
+  background: var(--bg-alt);
+  color: var(--text-main);
+  border: 1px solid var(--border);
+  padding: 0.45rem 1.1rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.2s;
-  line-height: 1;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  min-width: 80px;
 }
+
+.lang-btn::before {
+  content: "🌐";
+  margin-right: 6px;
+  font-size: 0.85rem;
+  filter: grayscale(1);
+  transition: filter 0.2s;
+}
+
 .lang-btn:hover {
-  background: var(--primary);
-  color: white;
+  background: var(--bg-main);
+  border-color: var(--primary);
+  color: var(--primary);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.lang-btn:hover::before {
+  filter: grayscale(0);
+}
+
+.lang-btn:active {
+  transform: translateY(0);
 }
 
 /* CONTAINER */
