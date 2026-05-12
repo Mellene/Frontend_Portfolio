@@ -214,6 +214,21 @@
     </div>
 
     <div class="project-grid-v2">
+      <!-- Project 0: CareerDNA (New) -->
+      <div onclick="openModal(8)" class="project-card-v2 hover-red" style="cursor: pointer;">
+        <div>
+          <div class="card-shape" style="background: #ef4444; clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);"></div>
+          <h3 data-i18n="project5-title">AI 기반 커리어 진단 SaaS (CareerDNA)</h3>
+          <p class="card-desc" data-i18n="project5-desc">성향·경험·시장 데이터를 통합 분석해 직무 적합도, 확신도, 리스크를 정량적으로 제공하는 커리어 의사결정 플랫폼입니다.</p>
+        </div>
+        <div class="card-tech-stack">
+          <span class="card-tech-tag">React 18</span>
+          <span class="card-tech-tag">TypeScript</span>
+          <span class="card-tech-tag">Supabase</span>
+          <span class="card-tech-tag">Gemini API</span>
+        </div>
+      </div>
+
       <!-- Project 0: Relationship Analysis Platform (New) -->
       <div onclick="openModal(7)" class="project-card-v2 hover-indigo" style="cursor: pointer;">
         <div>
@@ -423,6 +438,8 @@
         "project3-desc": "Z세대를 타겟으로 한 AR 기반 마약 예방 캠페인입니다. 실시간 얼굴 변형 필터를 디자인하였으며, 임상 데이터를 정서적 공감을 일으키는 소셜 미디어 경험으로 전환했습니다.",
         "project4-title": "Relationship Analysis Platform",
         "project4-desc": "Gemini API와 Supabase를 활용한 AI 연애 심리 분석 서비스입니다. 1인 개발자로서 기획부터 TypeScript 기반 프론트엔드 구축, 배포까지 전 과정을 수행했습니다.",
+        "project5-title": "AI 기반 커리어 진단 SaaS (CareerDNA)",
+        "project5-desc": "성향·경험·시장 데이터를 통합 분석해 직무 적합도, 확신도, 리스크를 정량적으로 제공하는 커리어 의사결정 플랫폼입니다.",
         "activities-title": "교내 활동",
         "activities-subtitle": "다양한 교내 활동을 통해 역량을 쌓아왔습니다",
         "activity1-title": "Teaching Assistant<br/>(학부 조교)",
@@ -515,6 +532,8 @@
         "project3-desc": "AR-based anti-drug campaign targeting Gen Z. Designed real-time face distortion filters and translated clinical data into social media experiences that evoke emotional empathy.",
         "project4-title": "Relationship Analysis Platform",
         "project4-desc": "AI-based relationship analysis service using Gemini API and Supabase. As the sole developer, I handled everything from planning to TypeScript-based frontend development and deployment.",
+        "project5-title": "AI-Powered Career Diagnosis SaaS (CareerDNA)",
+        "project5-desc": "A career decision-making platform that quantifiably provides job fit, confidence, and risk by integrating personality, experience, and market data.",
         "activities-title": "Campus Activities",
         "activities-subtitle": "Built competencies through various campus activities",
         "activity1-title": "Teaching Assistant",
@@ -559,7 +578,7 @@
         desc: { ko: "뉴욕주 공무원을 위한 React.js 기반 재무 설계 플랫폼. 3인 팀의 유일한 Front-end 개발자로 참여.", en: "React.js-based financial planning platform for New York State employees. Participated as the sole Front-end developer in a 3-person team." },
         tech: "React.js, Vite.js, Jira, Git",
         role: { ko: "Lead Front-end Developer", en: "Lead Front-end Developer" },
-        period: { ko: "2025년 1월 - 5월", en: "Jan 2025 - May 2025" },
+        period: { ko: "25.01 - 25.05", en: "25.01 - 25.05" },
         details: {
           ko: [
             {
@@ -597,7 +616,7 @@
         desc: { ko: "국내 최대 중고차 마켓플레이스 앱의 사용자 중심 리디자인 프로젝트.", en: "User-centric redesign project for Korea's largest used car marketplace app." },
         tech: "Figma, UX Research, Prototyping",
         role: { ko: "UX Researcher & Designer", en: "UX Researcher & Designer" },
-        period: { ko: "2024년 1월 - 6월", en: "Jan 2024 - Jun 2024" },
+        period: { ko: "24.01 - 24.06", en: "24.01 - 24.06" },
         details: {
           ko: [
             {
@@ -635,7 +654,7 @@
         desc: { ko: "Z세대를 타겟으로 한 AR 기반 마약 예방 캠페인.", en: "AR-based anti-drug campaign targeting Gen Z." },
         tech: "Spark AR, Adobe Fresco, Data Analysis",
         role: { ko: "AR Designer & Data Analyst", en: "AR Designer & Data Analyst" },
-        period: { ko: "2023년 7월 - 2024년 4월", en: "Jul 2023 - Apr 2024" },
+        period: { ko: "23.07 - 24.04", en: "23.07 - 24.04" },
         details: {
           ko: [
             {
@@ -795,6 +814,66 @@
             {
               title: "TypeScript-Based Robust Development",
               items: ["Applied TypeScript throughout my first production project for more structured and reliable component design."]
+            }
+          ]
+        }
+      },
+      8: {
+        title: { ko: "AI 기반 커리어 진단 SaaS (CareerDNA)", en: "AI-Powered Career Diagnosis SaaS (CareerDNA)" },
+        shape: "background: #ef4444; clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);",
+        desc: { ko: "성향·경험·시장 데이터를 통합 분석해 직무 적합도, 확신도, 리스크를 정량적으로 제공하는 커리어 의사결정 플랫폼입니다.", en: "A career decision-making platform that quantifiably provides job fit, confidence, and risk by integrating personality, experience, and market data." },
+        tech: "React 18, TypeScript, Supabase, Gemini API, html2canvas",
+        role: { ko: "Full-stack Developer (Sole)", en: "Full-stack Developer (Sole)" },
+        period: { ko: "2026.03.18 - 2026.05.02", en: "2026.03.18 - 2026.05.02" },
+        details: {
+          ko: [
+            {
+              title: "기획 배경",
+              items: [
+                "기존 채용 플랫폼의 기업 중심 매칭 한계 해결을 위한 구직자 중심 '자기 이해' 도구 기획",
+                "MBTI 등 비과학적 진단을 넘어선 데이터 기반의 정량적 커리어 의사결정 지원"
+              ]
+            },
+            {
+              title: "핵심 기능 구현",
+              items: [
+                "AI 기반 커리어 진단(적합도, 확신도, 리스크 산출)",
+                "6개월 커리어 로드맵 자동 생성 및 파일(PNG/PDF) 다운로드 지원",
+                "AI 커리어 코치(이력서 피드백, 자소서 초안) 및 JD 매칭 분석 기능"
+              ]
+            },
+            {
+              title: "차별점 및 아키텍처",
+              items: [
+                "진단에서 실행(로드맵, 코칭, 체크리스트)까지 이어지는 One-stop 플랫폼",
+                "Supabase Edge Functions를 활용한 AI API 보안 및 서버리스 구조 설계",
+                "구직자 중심의 수익 모델 및 사용자 경험 최우선 설계"
+              ]
+            }
+          ],
+          en: [
+            {
+              title: "Planning Background",
+              items: [
+                "Designed a seeker-centric 'self-understanding' tool to overcome the limitations of company-centered matching in existing platforms",
+                "Providing data-driven quantitative career decision support beyond non-scientific assessments"
+              ]
+            },
+            {
+              title: "Core Feature Implementation",
+              items: [
+                "AI-based career diagnosis (fit, confidence, and risk calculation)",
+                "Automatic 6-month career roadmap generation with PNG/PDF download support",
+                "AI Career Coach (resume feedback, cover letter drafts) and JD matching analysis"
+              ]
+            },
+            {
+              title: "Differentiators & Architecture",
+              items: [
+                "One-stop platform from diagnosis to action (roadmap, coaching, checklist)",
+                "Serverless architecture with secure AI API handling via Supabase Edge Functions",
+                "Seeker-centric revenue model and UX-first design"
+              ]
             }
           ]
         }

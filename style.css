@@ -630,6 +630,7 @@ footer {
 .project-card-v2.hover-orange:hover { background-color: #fff7ed; }
 .project-card-v2.hover-purple:hover { background-color: #faf5ff; }
 .project-card-v2.hover-indigo:hover { background-color: #eef2ff; }
+.project-card-v2.hover-red:hover { background-color: #fef2f2; }
 .project-card-v2.hover-teal:hover { background-color: #f0fdfa; }
 
 .card-shape {
