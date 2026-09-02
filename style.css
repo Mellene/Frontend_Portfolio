@@ -205,20 +205,15 @@ section { padding: 6rem 0; border-bottom: 1px solid var(--border); }
 }
 
 /* EXPERIENCE / ABOUT */
-.about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: start;
-}
-.about-text p {
+.about-content p {
   margin-bottom: 1.5rem;
   color: var(--text-muted);
   font-size: 1.05rem;
   line-height: 1.85;
-  max-width: 60ch;
+  max-width: 70ch;
 }
-.about-text strong { color: var(--text-main); }
+.about-content p:last-child { margin-bottom: 0; }
+.about-content strong { color: var(--text-main); }
 
 /* PROJECTS */
 .project-card {
@@ -501,7 +496,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .about-content, .project-body {
+  .project-body {
     grid-template-columns: 1fr;
   }
   .nav-links { display: none; }
